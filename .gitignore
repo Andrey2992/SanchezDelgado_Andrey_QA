@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+Casos de prueba/casos_login.md
+NOTAS.md
+parte4_bug/reporte_bug.md
+README.md
+tests/conftest.py
+tests/test_login.py
+shopgo/__init__.py
+pages/login_page.py
+pages/__init__.py
