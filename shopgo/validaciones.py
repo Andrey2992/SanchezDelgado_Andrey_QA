@@ -23,10 +23,9 @@ def validar_password(password: str) -> bool:
     return True
 
 def calcular_envio(subtotal: float) -> int:
-    if subtotal < 0:
+    if subtotal < 0: 
         raise ValueError("El subtotal no puede ser negativo")
     elif subtotal >= 25000:
         return 0
     else:
         return 2500
-    
